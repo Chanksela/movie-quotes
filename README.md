@@ -85,19 +85,25 @@ FILESYSTEM_DISK=public
 php artisan migrate
 ```
 
-8\. Register user via artisan command
+8\. Create storage link
+
+```bash
+php artisan storage:link
+```
+
+9\. Register user via artisan command
 
 ```bash
 php artisan register:user
 ```
 
-9\. Run the server from project folder
+10\. Run the server from project folder
 
 ```bash
 php artisan serve
 ```
 
-10\. After this you can log in with created user and add movies&quotes.
+11\. After this you can log in with created user and add movies&quotes.
 
 #
 
